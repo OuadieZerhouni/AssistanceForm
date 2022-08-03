@@ -1,0 +1,145 @@
+body {
+    background-color: #ffffff;
+    margin: 2% 5% 0 10%;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+
+}
+
+h2{
+    color: rgb(8, 87, 130);
+    text-align: center;
+
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+
+}
+
+.nom {
+    margin-right: 25px;
+}
+
+.part1 input {
+    border: 1px solid rgba(8, 87, 130, 0.5);
+    display: block;
+    height: 30px;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.objet-box {
+    margin: 10px;
+}
+
+.objet-box input {
+    border: 1px solid rgba(8, 87, 130, 0.5);
+    display: block;
+    height: 30px;
+    width: 80%;
+    max-width: 345px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+
+.select {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.select select {
+    border: 1px solid rgba(8, 87, 130, 0.5);
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 5px;
+
+}
+
+.select div {
+    margin-right: 5%;
+}
+
+.message-box {
+    margin: 10px;
+    
+}
+
+.files-box{
+    padding: 30px 0 40px 10px;
+  
+}
+
+.files-box p {
+    opacity: 0.7;
+
+}
+
+.label-file {
+    cursor: pointer;
+    color: rgb(4, 109, 174);
+    background-color: rgb(215, 236, 246);
+    font-weight: bold;
+    transition:0.3s;
+    padding: 10px;
+    border-radius: 5px;
+}
+.label-file:hover {
+    color: #ffffff;
+    background-color:rgb(4, 109, 174);
+    border-radius: 50px;
+}
+.files {
+    display: none;
+    
+}
+
+
+.btn {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn button {
+    font-size: medium;
+    border-radius: 5px;
+    height: 3em;
+    width: 6em;
+    margin: 10px;
+}
+
+.sendbtn {
+    background-color: rgb(4, 109, 174);
+    color: white;
+    transition: 300ms;
+}
+
+.sendbtn:hover {
+    background-color: #fff;
+    color: black
+}
+
+.cancelbtn {
+    background-color: #fff;
+    transition: 300ms;
+}
+
+.cancelbtn:hover {
+    background-color: rgb(4, 109, 174);
+    color: white;
+}
